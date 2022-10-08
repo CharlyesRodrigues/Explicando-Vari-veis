@@ -10,3 +10,4 @@ meio =" lindo "; // acima o "MEIO" teve a atribuição de SOUZA
 nome = ' Arlindo'// acima o "NOME" teve a atribuição de CHARLYES
 //sobre = ' carlos'; tentei atribuir o nome de "CARLOS" para o sobre nome, mas deu erro,pois acima o "Sobre" é declarado como const
 console.log (nome + meio + sobre); // Ao executar esse comando aparece no terminal Arlindo lindo Rodrigues
+
