@@ -1,3 +1,4 @@
+
 //               Explicações sobre as variáveis (VAR - LET - CONST)
 
 var nome = "Charlyes"; // var é usado para declaração  global
