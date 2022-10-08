@@ -1,4 +1,4 @@
-//                                         Desafio | Operadores
+/*                                        Desafio | Operadores
 //                                              Aritméticos
 // A - Faça uma potência que retorne o número 9;
 
@@ -33,9 +33,13 @@ console.log(valor_inicio);
 
 //                                                  Comparação
 // A - Compare uma string com o valor “1” a um número com o valor 1,o resultado deve retornar false;
-
-
-
+*/
+console.log("Exemplo de comparação de string com number ");
+let string = "1";
+let number = 1;
+console.log("A atribuição acima entre aspas se trata de uma string : " + string === number); // Ao colocar dois == o terminal mostra que as duas informações é string(true) e isso esta errado
+//let string2 ="1";
+//console.log("Solução ao problema acima  é: " + string2 === 1);// Ao colocar 3 iguais o problema é solucionado
 //                                                   Lógicos
 // A - Use o operador OR (ou) para retornar true*/
 
