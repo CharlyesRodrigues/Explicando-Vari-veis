@@ -1,3 +1,7 @@
+/*
+// Funções Comuns
+//================
+
 /**
  * Faz a soma de números inteiros
  * @param {number} n 
@@ -66,3 +70,22 @@ return raiz;
     }
     
     console.log(raizquadrada(hipotenusas(3,4)));
+ 
+
+// Funções Assíncronas retornam apenas 3 métodos( then,catch,finally)
+//=====================================================================
+
+async function assincrona() {
+
+    const resposta = await fetch("https://api.github.com/users/CharlyesRodrigues")
+
+
+return resposta
+}
+// then => se tiver tudo Ok retorna uma resposta positiva
+// cath => se der algo errado, esse método retorna umm mensagem de erro.
+
+assincrona().then(ok =>{
+console.log("Deu tudo certo" )
+
+}).catch(error => console.log("Algo deu errado " ))
