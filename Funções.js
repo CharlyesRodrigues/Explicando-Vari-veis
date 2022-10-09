@@ -58,22 +58,27 @@ function hipotenusas( catetoaAdj , catetoOposto){
     }
 
 /**
- * Como o próprio nome diz, se trata do cálculo de uma raiz quadrada
- * @param {number} x 
- * @returns 
- */
-    function raizquadrada(x){
+ * 
+ * @param {number} x  forneça um numero para você saber sua raiz quadrada
+ * @description Como o próprio nome diz, se trata  de uma raiz quadrada
+ * @returns {number}calculo da raiz quadrada 
+ * */
+    
+
+function raizquadrada(x){
 
 const raiz = Math.sqrt(x);
 return raiz;
 
     }
-    
+    console.log("Criei uma função de raiz quadrada do resultado da hipotenusa") ;
     console.log(raizquadrada(hipotenusas(3,4)));
+    console.log(raizquadrada(9));
  
 
-// Funções Assíncronas retornam apenas 3 métodos( then,catch,finally)
-//=====================================================================
+// Funções Assíncronas 
+// Retornam apenas 3 métodos( then,catch,finally)
+//=================================================
 
 async function assincrona() {
 
@@ -89,3 +94,40 @@ assincrona().then(ok =>{
 console.log("Deu tudo certo" )
 
 }).catch(error => console.log("Algo deu errado " ))
+
+// Funções Arrow
+//================
+// É menos verbosa e prática de se fazer e já possui um retorno automatico
+//OBSERVAÇÃO : se tentarmos executar  a função sem atribui-la a uma variável, vai dar erro
+
+const fn = () => console.log("Olá arrow function"); // nessa linha estou atribuindo minha função a variável fn
+fn()// ao atribuir a função a variável fn percebê-se que há a possíbilidade de executá-la e com isso
+// mostrar o que ela possui
+/**
+ * Método de soma(Arrow Function)
+ * @param {number} a 
+ * @param {number} b 
+ * @returns 
+ */
+const arrowsoma = (a,b)=> a+b; // função Arrow " (a,b)=> a+b;" atribuida a uma variável "const arrowsoma"
+
+console.log(arrowsoma(5,8));
+
+// Funções Callbacks
+//==================
+//OBSERVAÇÃO : a função login recebe um parâmetro "Callback" que é uma função que têm no seu escopo a mensagem
+// a seguir Callback("Olá meu primeiro exemplo de callback");
+
+/**
+ * Recebe  uma função como parâmetro
+ * @param {function} Callback 
+ */
+
+function login (Callback){
+
+Callback("Olá meu primeiro exemplo de callback");
+
+}
+
+login((msg) =>{console.log(msg)}) // nessa linha eu passei minha  callback que é uma arrow function  "msg =>{console.log(msg)"
+
