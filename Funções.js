@@ -10,7 +10,7 @@
  */
 function soma (n,n1){
 
-return(n +n1);
+return(n + n1);
 
 }
 // A função de soma é chamada e retorna a soma,mas para mostrar na tela é preciso utilizaar o comando console.log
