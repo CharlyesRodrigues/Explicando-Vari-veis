@@ -19,6 +19,12 @@ function calculadora(numero1,numero2,operacao){
         
      }else if(operacao === "multiplicacao"  ){
         return (numero1 * numero2 );
+     
+    }else if(operacao === "raiz"  ){
+        
+        const x = numero1 * numero2 ;
+        return (Math.sqrt(x));
+        
      }else {
 
         return "OPÇÃO INVÁLIDA"
@@ -27,4 +33,4 @@ function calculadora(numero1,numero2,operacao){
 }
 
 
-console.log(calculadora(4,2,"multiplicacao"));
+console.log(calculadora(3,3,"raiz"));
