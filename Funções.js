@@ -28,7 +28,7 @@ function somas (n2,n3){
     }
     
 // A função é chamada e como ele já possui o comando para imprimir o resultado na tela, não preciso utilizar o comando
-// console.log basta somente passar os valores referentes aos parâmetros criados.
+// console.log , basta somente passar os valores referentes aos parâmetros criados.
     somas(1,5)
 
 
