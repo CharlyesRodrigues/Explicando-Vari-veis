@@ -23,14 +23,14 @@ function somas (n2,n3){
         
     }
     
-// Afunção é chamada e como ele já possui o comando para imprimir o resultado na tela, não preciso utilizar o comando
+// A função é chamada e como ele já possui o comando para imprimir o resultado na tela, não preciso utilizar o comando
 // console.log basta somente passar os valores referentes aos parâmetros criados.
     somas(1,5)
 
 
                      // Agora vamos para um exemplo bem claro da utilização do return
 
-                     console.log("Hipotenusa sem retor Error");
+                     console.log("Hipotenusa sem retorn Error");
 
 function hipotenusa( catetoaAdj, catetoOposto){
 
