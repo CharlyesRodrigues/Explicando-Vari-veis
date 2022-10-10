@@ -1,0 +1,62 @@
+//  Exemplos Laços de repetição
+
+let index = 1;
+function ramdom(n1){
+
+    return n1 * 2
+  }
+
+while(index < 10){
+ 
+console.log(ramdom(index));
+
+index++
+}
+
+console.log("===================")
+console.log("Exemplo de for ")
+for(let index =0; index < 10; index++){
+
+console.log(index)
+
+}
+
+
+console.log("===================")
+console.log("Exemplo de for  in ")
+const array =["maça","Banana"];
+
+
+for(let x in array){
+
+console.log(x)
+
+
+}// for in só mostra o index
+
+console.log("===================")
+console.log("Exemplo de for  of ")
+
+const array2 =["maça","Banana"];//Exemplo de   Lista
+
+
+for(let x of array2){
+
+console.log(x)
+
+
+}// for in só mostra os nomes da lista
+
+console.log("teste")
+
+//const array2 =["maça","Banana"];                           Exemplo de   Lista
+//const array3 = {nome: "maça "+" Banana "+ 18};          Esse é um exemplo  de objetos
+//const array4 = [{nome: "maça "+" Banana "+ 18}];        Esse é um exemplo  de lista de objetos
+
+const array3 = {nome: "maça "+" Banana "+ 18};
+for(let x in array3){
+
+console.log(array3[x]);
+
+
+}
